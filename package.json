@@ -1,16 +1,25 @@
 {
-  "name": "final-project",
+  "name": "comp426-final-pomodoro-1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmorton1212/COMP426-Final-Pomodoro.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmorton1212/COMP426-Final-Pomodoro/issues"
+  },
+  "homepage": "https://github.com/alexmorton1212/COMP426-Final-Pomodoro#readme",
   "dependencies": {
-    "browser-sync": "^2.26.12",
-    "bulma": "^0.9.1"
+    "bulma": "^0.9.1",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "json": "^10.0.0"
   }
-  
 }
