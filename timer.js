@@ -111,7 +111,7 @@ function startOption1Counter() {
   iterationSet();
 
   if (intervalCount % 2 === 0) {
-    time = 15 * 60;
+    time = 20 * 60;
   } else {
     time = 5 * 60;
   }
@@ -149,7 +149,7 @@ function startOption2Counter() {
   iterationSet();
 
   if (intervalCount % 2 === 0) {
-    time = 20 * 60;
+    time = 25 * 60;
   } else {
     time = 5 * 60;
   }
@@ -199,7 +199,7 @@ window.onload = function () {
 
   var button1 = document.createElement("input");
   button1.setAttribute("type", "button");
-  button1.setAttribute("value", "15-5")
+  button1.setAttribute("value", "20-5")
   button1.style.border = "none";
   button1.style.color = "white";
   button1.style.backgroundColor = "grey";
@@ -210,7 +210,7 @@ window.onload = function () {
 
   var button2 = document.createElement("input");
   button2.setAttribute("type", "button");
-  button2.setAttribute("value", "20-5")
+  button2.setAttribute("value", "25-5")
   button2.style.border = "none";
   button2.style.color = "white";
   button2.style.backgroundColor = "grey";
