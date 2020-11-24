@@ -1,3 +1,7 @@
+/* Tutorial followed to help create timer 
+  http://www.femkreations.com/countdown-timer-using-javascript/
+*/ 
+
 var time;
 var intervalHandle;
 var firstInterval;
